@@ -1,1 +1,8 @@
+#задача 2
 
+password_1 = input()
+password_2 = input()
+if (password_1 == password_2):
+    print('True')
+else:
+    print('False')
