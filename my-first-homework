@@ -1,11 +1,12 @@
 #задача 2
-
 password_1 = input()
 password_2 = input()
 if (password_1 == password_2):
     print('True')
 else:
     print('False')
+
+
 
 #задача 3
 first=int(input())
@@ -14,3 +15,60 @@ third=int(input())
 fourth=int(input())
 all=[first,second,third,fourth]
 print(min(all))
+
+
+
+#задача 4
+first=int(input())
+second=int(input())
+third=int(input())
+fourth=int(input())
+all=[first,second,third,fourth]
+print(max(all))
+
+
+
+#задача 5
+first=int(input())
+second=int(input())
+third=int(input())
+if (first+second)>third or (first+third)>second or (second+third)>first:
+    print('True')
+else:
+    print('False')
+
+
+
+#задача 6
+first=int(input())
+second=int(input())
+third=int(input())
+all=[first,second,third]
+if (first+second)>third or (first+third)>second or (second+third)>first:
+    if max(all)==((first+second+third)/2):
+        print('Вау, этот треугольник вырожденный')
+    else:
+        if first!=second and first!=third and second!=third:
+            print('Скучно, этот треугольник разносторонний')
+        else:
+            if first==second and second==third and first==third:
+                print('Мужик, да это равносторонний треугольник!')
+            else:
+                print('У меня есть плохие новости. Это р/б треуг.')
+else:
+    print('Неа, попробуй другие числа, треугольника с такими сторонами не существует')
+
+
+
+#задача 7
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+
+if c<b:
+    x=b-c+1
+    print(x)
+else:
+    print('Братанчик, это не по понятиям. Переделывый циферки.')
+
