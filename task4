@@ -3,3 +3,21 @@ n=int(input())
 a=[int(input()) for x in range (n)]
 print (sum(a)/n)
 
+
+
+#задача 4
+n=int(input())
+m=int(input())
+a=[int(input()) for x in range (n)]
+print(a[m])
+
+
+#задача 5
+n=int(input())
+a=[int(input()) for x in range (n)]
+s=0
+b=[]
+for i in range (len(a)-1):
+    if i % 2 == 0:
+        b.append (i)
+print (sum(b))
