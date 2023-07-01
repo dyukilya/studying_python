@@ -1,0 +1,13 @@
+#задача 3
+
+k=int(input())
+n=int(input())
+i=k
+s=i
+while i<n:
+    i += 1
+    if i % 2 != 0:
+        s+=i
+print (s)
+
+
