@@ -12,6 +12,9 @@ a=[int(input()) for x in range (n)]
 print(a[m])
 
 
+
+
+
 #задача 5
 n=int(input())
 a=[int(input()) for x in range (n)]
