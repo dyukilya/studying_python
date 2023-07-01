@@ -1,0 +1,5 @@
+#задача 3
+n=int(input())
+a=[int(input()) for x in range (n)]
+print (sum(a)/n)
+
